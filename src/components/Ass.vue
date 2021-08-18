@@ -56,7 +56,7 @@ export default {
     methods:{
         gerar(){
            this.text = `<div id="assinatura" style="background-image: url(https://centraldaeconomia.com/wp-content/uploads/2021/08/assinaturas.jpg); background-repeat: no-repeat; background-size: 100%; width: 600px; height: 160px; text-align: center; font-size: 20px; padding-top: 2px; font-family: Rockwell;">
-            <p> <strong>`+this.nome+`</strong>| Depto: `+this.departamento +`</p>
+            <p> <strong>`+this.nome+`</strong>| Depto. `+this.departamento +`</p>
       <p>`+this.telefone+`<br>
       <strong>`+this.email+`</strong></p>
     </div>
